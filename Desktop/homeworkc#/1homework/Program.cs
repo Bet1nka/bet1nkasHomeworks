@@ -52,18 +52,26 @@ else
     Console.WriteLine(num + " odd number");
 }
 
-*/
+
 
 //Задача 4: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
  
  Console.WriteLine( " input integer number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int current = num/num;
-while(current<=num);
-if(num % 2 ==0)
-   Console.WriteLine(current + " ");
-   current++;
-   
+int current = 1;
 
+while(current <= num)
+{
+   if(current % 2 ==0)
+   {
+     Console.Write(current + " ");
+     current++;
+    }   
+    else
+    {
+        current++;
 
+    }
+}
+   */
