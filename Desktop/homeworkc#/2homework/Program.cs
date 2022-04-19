@@ -23,7 +23,7 @@ void ShowThirdNumber(int n)
          Console.WriteLine(num); 
      }
 
-     if (n<99)
+     if (n<100)
      {
          Console.WriteLine("not third number");
      }
