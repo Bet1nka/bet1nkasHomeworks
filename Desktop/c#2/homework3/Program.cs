@@ -17,16 +17,12 @@ Console.WriteLine("Input number with 5 symbols");
 int number = Convert.ToInt32(Console.ReadLine());
 Palindrom(number);
 
-
+*/
 //Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
 double Findin3d(double a1,double b1,double c1,double a2, double b2, double c2)
 {
-  double atr = (a2-a1)*(a2-a1);
-  double btr = (b2-b1)*(b2-b1);
-  double ctr = (c2-c1)*(c2-c1);
-  double abc = atr + btr + ctr;
-  return Math.Sqrt(abc);
+  return Math.Sqrt((a2-a1)*(a2-a1)+(b2-b1)*(b2-b1)+(c2-c1)*(c2-c1));
 }
 Console.WriteLine("Input x coordinate for A");
 double cax = Convert.ToInt32(Console.ReadLine());
@@ -42,7 +38,7 @@ Console.WriteLine("Input z coordinate for B");
 double cbz = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Findin3d(cax,cay,caz,cbx,cby,cbz));
 
-
+/*
 //Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 void Qubes(int n)
 {
