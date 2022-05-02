@@ -23,9 +23,9 @@ int ReturnSumOfNumbers (int x)
 {
     int x1 = 0;
     int count = 0;
-    while(x%10>0)
+    while(x!>0)
     {
-        x1 = x1+x%10;
+        x1 += x%10;
         x = x/10;
         count++;
     }
